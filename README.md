@@ -8,7 +8,7 @@ This repo is the code base for my three week Game Design course that is intended
  * Week 1: Intro to Python using the Jupyter Notebook
  * Week 2: Intro to Pygame using the Spyder IDE
  * Week 3: Final Project - Design and build your own game
-
+f
 The course uses the Anaconda python distribution package: https://www.anaconda.com/distribution/
 
 **Previous Courses:**
