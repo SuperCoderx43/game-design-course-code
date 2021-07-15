@@ -16,19 +16,19 @@ class FuseBypass:
     
     def start(self):
         print("To unlock the next character in the password, we'll need to bypass a fuse in the computer system.")
-        time.sleep(3.000)
+        # time.sleep(3.000)
         print("The fuses are numbered 0-999. To test a fuse, you must enter which fuse to test in the parenthesis of heist.fuseBypass.test() and run.")
-        time.sleep(3.000)
+        # time.sleep(3.000)
         print("If you test a fuse higher than the target, the fuse will blow and the test will return False. If you test a fuse lower than the target, the test will return True")
-        time.sleep(3.000)
+        # time.sleep(3.000)
         print("You only get 2 blown fuses before you have to commit to the bypass.")
-        time.sleep(3.000)
+        # time.sleep(3.000)
         print("\nTo bypass the target, run heist.fuseBypass.bypass()")
-        time.sleep(3.000)
+        # time.sleep(3.000)
         print("If you guess wrong, the system will reset, and the bypass fuse will change.")
-        time.sleep(2.000)
+        # time.sleep(2.000)
         print("\nUse what you know of python to write some code to help you test as many fuses as possible quickly. If you take too many attempts, \nthe code will tell you whether or not you got the right fuse, but will make you try again to guess faster")
-        time.sleep(6.000)
+        # time.sleep(6.000)
         print("Good Luck!\n")
     
     def test(self, fuse):

@@ -7,7 +7,10 @@ Created on Wed Jun 26 14:47:57 2019
 
 # Scavenger Hunt
 
-import time, looper, scale, fusebypass, webbrowser
+import _src.looper as looper
+import _src.scale as scale
+import _src.fusebypass as fusebypass
+import time, webbrowser
 
 loops = looper.Loops()
 numberPatch = scale.Scales()
@@ -16,21 +19,21 @@ fuseBypass = fusebypass.FuseBypass()
 def start():
     print("\nWelcome to the Heist!! You are attempting to hack into a vault containing a powerful secret...")
     print("You will be given a series of tasks to complete using the coding principles we've gone over in class.")
-    time.sleep(5.000)
+    # time.sleep(5.000)
     print("\nSuccessful completion of each task will yield a character of the vault's access key. They are not given in order.")
-    time.sleep(5.000)
+    # time.sleep(5.000)
     print("Once you have collected all 4 characters, you must find the correct order of them to access the vault and complete the hack.")
-    time.sleep(5.000)
+    # time.sleep(5.000)
     print("\nFor initializing the first system, you will be rewarded a character.")
-    time.sleep(5.000)
+    # time.sleep(5.000)
     print(".\n")
-    time.sleep(2.000)
+    # time.sleep(2.000)
     print(".\n")
-    time.sleep(2.000)
+    # time.sleep(2.000)
     print(".\n")
-    time.sleep(2.000)
+    # time.sleep(2.000)
     print("The first character is &\n")
-    time.sleep(10.000)
+    # time.sleep(10.000)
     print("To access the next task, enter the following command: heist.loops.start()")
     
 def access(password):
